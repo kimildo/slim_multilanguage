@@ -3,11 +3,8 @@
 namespace libraries\lang;
 
 use Slim\Http\Request;
-//use libraries\lang\STAILang AS slim3_multilanguage;
+use Slim\Http\Response;
 
-/*
- *  Multilanguage Middleware
- */
 
 class Multilanguage
 {
