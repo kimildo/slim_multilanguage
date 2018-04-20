@@ -8,7 +8,7 @@
 
     });
 
-    $app->group('/{lang:[a-z]{2}}', function () use ($container) {
+    $app->group('/{lang:[a-z]{2}}', function () {
         $this->get('/hello', 'controllers\Welcome:hello')->setName('hello');
     });
 
